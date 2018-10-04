@@ -14,7 +14,7 @@ const timer1 = 0 intervalSet(100, () => {
 const timer2 = 0 intervalSet(2000, 1, 2, (...args) => {
     console.log("I'm 100 ms later with these arguments:", ...args);
 });
-clearInterval(timer0);// unless you're candelled
-clearInterval(timer1);// unless you're candelled
-clearInterval(timer2);// unless you're candelled
+clearInterval(timer0);// unless you're cancelled
+clearInterval(timer1);// unless you're cancelled
+clearInterval(timer2);// unless you're cancelled
 ```
