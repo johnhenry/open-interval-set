@@ -11,5 +11,9 @@
   "license": "MIT",
   "devDependencies": {
     "tape": "4.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnhenry/open-interval-set"
   }
 }
